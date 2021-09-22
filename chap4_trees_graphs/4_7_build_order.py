@@ -1,7 +1,7 @@
+from collections import defaultdict, deque
 from typing import List, Tuple
 
 import pytest
-from collections import defaultdict, deque
 
 
 def determine_build_order(
