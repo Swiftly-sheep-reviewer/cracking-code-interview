@@ -65,3 +65,7 @@ def test_is_binary_search_tree():
 
     assert not is_binary_search_tree(t)
     assert is_binary_search_tree(bst)
+
+
+if __name__ == "__main__":
+    test_is_binary_search_tree()
